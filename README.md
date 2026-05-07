@@ -9,6 +9,9 @@ STaRparse provides a streamlined pipeline to extract meaningful genetic informat
 ### Value Proposition
 By combining multiple parsing, merging, and summary steps into a single tool, STaRparse eliminates manual data wrangling for STRs, allowing researchers and bioinformaticians to quickly transition from raw VCF outputs to actionable, annotated datasets ready for analysis.
 
+### Docker Image
+STaRparse is also available in a containerized, ready-to-use pipeline on Docker Hub: https://hub.docker.com/r/cmgantwerpen/repeat_analysis. This Docker image also includes ExpansionHunter and REViewer.
+
 ## Prerequisites
 
 Before running STaRparse, ensure you have the following installed:
